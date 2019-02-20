@@ -27,7 +27,7 @@ bot.on ('message', (message) => { //Image commands (Have to leave here until the
       message.channel.send('Healthiest place to eat. Ever.', {files: ["./images/commandimages/mcdonalds.png"]});
     }
     if (message.content.startsWith ('minecraft')) {
-      message.channel.send('Hope you do not get blocked from this server...', {files: ["./images/commandimages/Minecraft-Wallpaper-minecraft-37763094-2560-1600.png"]});
+      message.channel.send('Hope you do not get BLOCKed from this server...', {files: ["./images/commandimages/Minecraft-Wallpaper-minecraft-37763094-2560-1600.png"]});
     }
     if (message.content.startsWith ('pizza')) {
       message.channel.send('There is no comment. This is just good.', {files: ["./images/commandimages/pizza.png"]});
@@ -45,4 +45,4 @@ bot.on ('message', (message) => { //Image commands (Have to leave here until the
 
 });
 
-bot.login("NTQ0NzI0MzgzNjcxNzc5MzU4.D05kCw.aSjG87BE2Lg4Sdq9OdhsfPkPQf0"); //TOKEN
+bot.login("NTQ0NzI0MzgzNjcxNzc5MzU4.D070Jg.AIqzPoaneRtSsA0zW5z4xt-e9Fo"); //TOKEN
