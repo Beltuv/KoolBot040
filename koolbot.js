@@ -1,5 +1,4 @@
 const commando = require("discord.js-commando");
-const ytdl = require("ytdl-core");
 const bot = new commando.Client();
 
 bot.registry.registerGroup('simple');
