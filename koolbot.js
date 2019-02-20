@@ -45,4 +45,4 @@ bot.on ('message', (message) => { //Image commands (Have to leave here until the
 
 });
 
-bot.login("NTQ0NzI0MzgzNjcxNzc5MzU4.D070Jg.AIqzPoaneRtSsA0zW5z4xt-e9Fo"); //TOKEN
+bot.login("NTQ3ODA5MzczNzA4MzUzNTU3.D08K3Q.udI5Q6YOG4I99Sjyl7abnQhsEg4"); //TOKEN
