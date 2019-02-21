@@ -5,7 +5,6 @@ bot.registry.registerGroup('simple');
 bot.registry.registerGroup('random');
 bot.registry.registerGroup('greetings');
 bot.registry.registerGroup('imagecommands');
-bot.registry.registerGroup('music');
 bot.registry.registerCommandsIn(__dirname + "/commands")
 
 bot.on('ready', () => {
