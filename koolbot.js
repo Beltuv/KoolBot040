@@ -1,5 +1,6 @@
 const commando = require("discord.js-commando");
 const bot = new commando.Client();
+const token = process.env.token
 
 bot.registry.registerGroup('simple');
 bot.registry.registerGroup('random');
@@ -43,4 +44,4 @@ bot.on ('message', (message) => { //Image commands (Have to leave here until the
 
 });
 
-bot.login("NTQ3ODA5MzczNzA4MzUzNTU3.D0-tnA.jKgu-zJs3al9pggnY-l1ZJfll0w"); //TOKEN
+bot.login(token); //TOKEN
