@@ -43,4 +43,4 @@ bot.on ('message', (message) => { //Image commands (Have to leave here until the
 
 });
 
-bot.login("NTQ3ODA5MzczNzA4MzUzNTU3.D08K3Q.udI5Q6YOG4I99Sjyl7abnQhsEg4"); //TOKEN
+bot.login("BOT_TOKEN"); //TOKEN
